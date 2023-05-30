@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.step1 {
+  padding-top: 40px;
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.step1 .item1 li {
+  display: inline-block;
+  padding: 10px;
+}
+.step1 .item1 li a {
+  text-decoration: none;
+  color: black;
+}
+.step1 .item1 li a:hover {
+  color: rgb(36, 156, 208);
+}
+
+.carousel-caption h1 {
+  color: black;
+}
+
+.carousel-caption p {
+  color: black;
+}
+
+.carousel-caption {
+  top: 17%;
+}
+
+.step2 {
+  margin: 0 10%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.step2 .card-body {
+  text-align: center;
+}
+.step2 .card-body .icon1 {
+  font-size: 50px;
+  color: rgb(36, 156, 208);
+}
+.step2 .btn {
+  background-color: rgb(36, 156, 208);
+  border: none;
+}
+
+.step3 {
+  padding: 30px;
+  text-align: center;
+}
+.step3 P {
+  padding: 30px;
+  color: gray;
+}
+
+.item2 {
+  display: flex;
+  justify-content: center;
+}
+.item2 li {
+  display: inline-block;
+}
+.item2 a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.row {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.step4 {
+  padding: 30px;
+  text-align: center;
+}
+.step4 P {
+  padding: 30px;
+  color: gray;
+}
+
+.container3 {
+  border: none;
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.container3 .card {
+  border: none;
+}
+.container3 .btn-primary {
+  background-color: rgb(36, 156, 208);
+}
+
+header {
+  background-color: rgba(232, 213, 145, 0.546);
+}
+
+@media (max-width: 1063px) {
+  .step1 ul {
+    display: none;
+  }
+}
+@media (min-width: 1058px) {
+  .step1 i {
+    display: none;
+  }
+}
+.end {
+  margin-top: 30px;
+  background-color: black;
+  height: 50px;
+}
+.end p {
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

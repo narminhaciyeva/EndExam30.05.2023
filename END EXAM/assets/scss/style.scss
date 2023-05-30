@@ -1,0 +1,156 @@
+@import 'partials/variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.step1 {
+    padding-top: 40px;
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+
+    .item1 li {
+        display: inline-block;
+        padding: 10px;
+
+        a {
+            text-decoration: none;
+            color: $lst-color;
+        }
+
+        a:hover {
+            color: $links-color;
+        }
+    }
+
+
+}
+
+.carousel-caption h1 {
+    color: $caption-color;
+}
+
+.carousel-caption p {
+    color: $caption-color;
+}
+
+.carousel-caption {
+    top: 17%;
+}
+
+.step2 {
+
+    margin: 0 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+
+    .card-body {
+
+        text-align: center;
+
+        .icon1 {
+            font-size: 50px;
+            color: $ikon-color;
+        }
+    }
+
+    .btn {
+        background-color: $btn-color;
+        border: none;
+    }
+}
+
+.step3 {
+    padding: 30px;
+
+    text-align: center;
+
+    P {
+        padding: 30px;
+        color: $desc-color;
+    }
+
+}
+
+.item2 {
+    display: flex;
+    justify-content: center;
+
+    li {
+        display: inline-block;
+
+    }
+
+    a {
+        padding: 10px;
+        text-decoration: none;
+        color: $lst2-color;
+
+    }
+}
+
+.row{
+padding:30px;
+    display: flex;
+    justify-content: space-between;
+}
+.step4 {
+    padding: 30px;
+
+    text-align: center;
+
+    P {
+        padding: 30px;
+        color: $desc-color;
+    }
+
+}
+.container3{
+    .card{
+        border: none;
+    }
+    border: none;
+    width: 80%;
+    margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+ 
+    .btn-primary{
+background-color: $btns2-color;
+
+
+    
+  }
+}
+header{
+    background-color:$headers-color;
+}
+@media (max-width:1063px) { 
+    
+.step1 ul {
+    display:none;
+  }
+}
+@media (min-width:1058px){
+    .step1 i{
+        display: none;
+    }
+}
+
+.end{
+   margin-top: 30px;
+    background-color: $end-color;
+    height: 50px;
+    p{
+        color: $text-end-color;
+        text-align: center;
+    }
+}
